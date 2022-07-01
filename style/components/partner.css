@@ -1,0 +1,12 @@
+.partner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.partner img{
+    opacity: .5;
+    width: calc(100% / 6);
+}
+.partner img:hover{
+    opacity: 1;
+}

@@ -1,0 +1,90 @@
+.people-item1{
+    display: flex;
+}
+.people-item1 div{
+    width: 50%;
+}
+.people-img{
+    width: 100%;
+}
+.people{
+    margin-top: 100px;
+}
+.people-info{
+    padding: 0 60px;
+    margin-left: 80px;
+}
+.people-info h2{
+    font-size: 30px;
+    color: #0a472e;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.people-info p{
+    font-size: 14px;
+    color: #555;
+    line-height: 20px;
+}
+.people-link{
+    display: inline-block;
+    margin-top: 15px;
+    width: fit-content;
+}
+.people-link a{
+    transition: 400ms;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #bac34e;
+    font-weight: 700;
+    margin-top: 5%;
+    padding-bottom:4px;
+    width: 95px;
+    border-bottom: 1px solid #bac34e;
+}
+.people-link img{
+    width: 12px;
+    height: 12px;
+    transition: .4s;
+    filter: invert(96%) sepia(82%) saturate(834%) hue-rotate(5deg) brightness(83%) contrast(80%);
+}
+.people-link:hover .people-link img {
+    transition: 400ms;
+    margin-left: 5px;
+}
+.people-item2{
+    display: flex;
+    padding: 30px 0 50px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.people-item2 div{
+    width: 50%;
+}
+.people-info2{
+    padding: 50px 80px;
+}
+.people-item2>img{
+    width: 48px;
+    height: 38px;
+    margin-top: 50px;
+}
+.people-info2>span{
+    display: block;
+    font-size: 12px;
+    color: #aaa;
+    font-weight: 400;
+    margin: 20px 0 40px;
+}
+.people-scroll{
+    display: flex;
+}
+.people-scroll>span{
+    width: 8px;
+    height: 8px;
+    margin-right: 12px;
+    background-color: #D5D5D5;
+    border-radius: 100%;
+}
+.people-scroll>span:first-child{
+    background-color: #000;
+}
